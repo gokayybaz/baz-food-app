@@ -11,7 +11,7 @@ const Navbar = () => {
     const iconSize = 24
 
     return (
-        <nav className='flex px-24 py-8 items-center justify-between'>
+        <nav className='flex border-b-1 border-gray-100 px-24 py-8 items-center justify-between'>
             {/* Navbar Left Area */}
             <div>
                 <NavbarLogo />
