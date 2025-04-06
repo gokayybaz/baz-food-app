@@ -1,8 +1,8 @@
 import React from 'react'
 
-const HeaderProductCardTitle = () => {
+const HeaderProductCardTitle = ({ title }) => {
     return (
-        <h3 className='text-lg font-semibold'>Burger Menü</h3>
+        <h3 className='text-lg font-semibold'>{title}</h3>
 
     )
 }
