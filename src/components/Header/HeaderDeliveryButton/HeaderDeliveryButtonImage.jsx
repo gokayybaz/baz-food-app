@@ -1,6 +1,6 @@
 import React from 'react'
 
-import DeliveryButtonIcon from '../../../assets/images/delivery-button-icon.svg'
+import DeliveryButtonIcon from '../../../assets/images/header-images/delivery-button-icon.svg'
 
 
 const HeaderDeliveryButtonImage = () => {

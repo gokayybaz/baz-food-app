@@ -6,10 +6,10 @@ import HeaderButtons from './HeaderButtons/HeaderButtons'
 import HeaderArrowImage from './HeaderArrowImage';
 import HeaderProductCard from './HeaderProductCard/HeaderProductCard';
 
-import Burger from '../../assets/images/burger.png'
-import ComboMenu from '../../assets/images/combo-menu.png'
-import Pizza from '../../assets/images/pizza.png'
-import Cake from '../../assets/images/cake.png'
+import Burger from '../../assets/images/header-images/burger.png'
+import ComboMenu from '../../assets/images/header-images/combo-menu.png'
+import Pizza from '../../assets/images/header-images/pizza.png'
+import Cake from '../../assets/images/header-images/cake.png'
 
 
 const Header = () => {

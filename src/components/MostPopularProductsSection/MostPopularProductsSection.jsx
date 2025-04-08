@@ -1,0 +1,18 @@
+import React from 'react'
+
+
+import MostPopularProductsSectionTextArea from './MostPopularProductsSectionTextArea/MostPopularProductsSectionTextArea'
+import MostPopularProductsSectionList from './MostPopularProductsSectionList/MostPopularProductsSectionList';
+import MostPopularProductsButtonArea from './MostPopularProductsSectionButtonArea/MostPopularProductsButtonArea';
+
+const MostPopularProductsSection = () => {
+    return (
+        <div className='flex flex-col mt-25 px-36 justify-center items-center'>
+            <MostPopularProductsSectionTextArea />
+            <MostPopularProductsSectionList />
+            <MostPopularProductsButtonArea />
+        </div>
+    )
+}
+
+export default MostPopularProductsSection

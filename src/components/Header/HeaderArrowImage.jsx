@@ -1,5 +1,5 @@
 import React from 'react'
-import Arrow from '../../assets/images/ok.svg'
+import Arrow from '../../assets/images/header-images/ok.svg'
 
 const HeaderArrowImage = () => {
     return (
