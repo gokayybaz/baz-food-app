@@ -4,9 +4,8 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Header from './components/Header/Header';
 import CompanyInfoSection from './components/CompanyInfoSection/CompanyInfoSection'
-
-
 import MostPopularProductsSection from './components/MostPopularProductsSection/MostPopularProductsSection';
+import ServicesSection from './components/ServicesSection/ServicesSection';
 
 function App() {
   return (
@@ -16,6 +15,7 @@ function App() {
         <Header />
         <CompanyInfoSection />
         <MostPopularProductsSection />
+        <ServicesSection />
         <div className='flex mt-4 h-24'></div>
       </div>
     </>

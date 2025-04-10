@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-import MostPopularProductsSectionTextArea from './MostPopularProductsSectionTextArea/MostPopularProductsSectionTextArea'
+import MostPopularProductsSectionTextArea from './MostPopularProductsSectionTitleArea/MostPopularProductsSectionTitleArea'
 import MostPopularProductsSectionList from './MostPopularProductsSectionList/MostPopularProductsSectionList';
 import MostPopularProductsButtonArea from './MostPopularProductsSectionButtonArea/MostPopularProductsButtonArea';
 
