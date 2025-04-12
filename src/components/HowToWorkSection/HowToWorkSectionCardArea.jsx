@@ -12,7 +12,7 @@ import HowToWorkSectionStepArrowImage from './HowToWorkSectionStepArrowImage'
 
 const HowToWorkSectionCardArea = () => {
     return (
-        <div className='mt-10 grid grid-cols-5 '>
+        <div className='mt-10 shadow-xl p-12 rounded-3xl  grid grid-cols-5 '>
             <HowToWorkSectionCard flexType={'flex-col'} cardImage={ComputerImage} cardTitle={"SİPARİŞ ALINIR"} cardDescription={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, maxime!"} />
             <HowToWorkSectionStepArrowImage image={StepLeftImage} />
             <HowToWorkSectionCard flexType={'flex-col-reverse'} cardImage={FoodImage} cardTitle={"SİPARİŞ HAZIRLANIR"} cardDescription={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, maxime!"} />
