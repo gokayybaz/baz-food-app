@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import CompanyInfoSection from './components/CompanyInfoSection/CompanyInfoSection'
 import MostPopularProductsSection from './components/MostPopularProductsSection/MostPopularProductsSection';
 import ServicesSection from './components/ServicesSection/ServicesSection';
+import HowToWorkSection from './components/HowToWorkSection/HowToWorkSection';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <CompanyInfoSection />
         <MostPopularProductsSection />
         <ServicesSection />
+        <HowToWorkSection />
         <div className='flex mt-4 h-24'></div>
       </div>
     </>
