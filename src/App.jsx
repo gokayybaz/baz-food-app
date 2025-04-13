@@ -8,6 +8,8 @@ import MostPopularProductsSection from './components/MostPopularProductsSection/
 import ServicesSection from './components/ServicesSection/ServicesSection';
 import HowToWorkSection from './components/HowToWorkSection/HowToWorkSection';
 import CustomerSaysSection from './components/CustomerSaysSection/CustomerSaysSection'
+import SubscribeNewsletterSection from './components/SubscribeNewsletterSection/SubscribeNewsletterSection';
+
 
 
 
@@ -22,6 +24,7 @@ function App() {
         <ServicesSection />
         <HowToWorkSection />
         <CustomerSaysSection />
+        <SubscribeNewsletterSection />
         <div className='flex mt-4 h-24'></div>
       </div>
     </>
