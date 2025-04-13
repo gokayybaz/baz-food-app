@@ -1,6 +1,3 @@
-import './App.css'
-
-
 import Navbar from './components/Navbar/Navbar'
 import Header from './components/Header/Header';
 import CompanyInfoSection from './components/CompanyInfoSection/CompanyInfoSection'
@@ -9,6 +6,7 @@ import ServicesSection from './components/ServicesSection/ServicesSection';
 import HowToWorkSection from './components/HowToWorkSection/HowToWorkSection';
 import CustomerSaysSection from './components/CustomerSaysSection/CustomerSaysSection'
 import SubscribeNewsletterSection from './components/SubscribeNewsletterSection/SubscribeNewsletterSection';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -25,8 +23,8 @@ function App() {
         <HowToWorkSection />
         <CustomerSaysSection />
         <SubscribeNewsletterSection />
-        <div className='flex mt-4 h-24'></div>
-      </div>
+        <Footer />
+      </div >
     </>
   )
 }
