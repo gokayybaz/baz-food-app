@@ -29,7 +29,7 @@ const Header = () => {
 
             {/* Header Right Area */}
 
-            <div className='grid md:h-full justify-center md:w-1/3 mt-28 gap-8 gap-y-10  grid-cols-2'>
+            <div className='grid md:h-full justify-center md:w-1/3 mt-28 md:mt-6 gap-8 gap-y-10 grid-cols-2'>
                 <HeaderProductCard image={Burger} title={"Burger Menüleri"} description={`Lezzetli Etli ve Tavuklu Burger Menülerimiz`} />
                 <HeaderProductCard image={ComboMenu} title={"Combo Menüleri"} description={"Lezzetli ve Bol Çeşitli Combo Menülerimiz"} />
                 <HeaderProductCard image={Pizza} title={"Pizza Menüleri"} description={"Lezzetli ve Bol Çeşitli Pizza Menülerimiz"} />
