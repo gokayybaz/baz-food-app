@@ -14,26 +14,28 @@ import Cake from '../../assets/images/header-images/cake.png'
 
 const Header = () => {
     return (
-        <header className='flex align-center h-[78%] relative justify-between px-32 py-10 '>
+        <header className='flex flex-col md:flex-row align-center h-[78%] relative justify-between px-5 md:px-32 py-10 '>
             {/* Header Left Area */}
-            <div className='w-2/3' >
+            <div className='md:w-2/3' >
                 <HeaderDeliveryButton />
                 <HeaderTextArea />
                 <HeaderButtons />
             </div>
 
             {/* Header Center Area */}
-            <div className='h-full absolute flex  bottom-8 left-5/12'>
+            <div className='h-full absolute hidden md:flex  bottom-8 left-5/12'>
                 <HeaderArrowImage />
             </div>
 
             {/* Header Right Area */}
-            <div className='grid h-full justify-center w-1/3  gap-8 gap-y-10 grid-cols-2'>
+
+            <div className='grid md:h-full justify-center md:w-1/3 mt-28 gap-8 gap-y-10  grid-cols-2'>
                 <HeaderProductCard image={Burger} title={"Burger Menüleri"} description={`Lezzetli Etli ve Tavuklu Burger Menülerimiz`} />
                 <HeaderProductCard image={ComboMenu} title={"Combo Menüleri"} description={"Lezzetli ve Bol Çeşitli Combo Menülerimiz"} />
                 <HeaderProductCard image={Pizza} title={"Pizza Menüleri"} description={"Lezzetli ve Bol Çeşitli Pizza Menülerimiz"} />
                 <HeaderProductCard image={Cake} title={"Tatlı Menüleri"} description={"Lezzetli ve Bol Çeşitli Tatlı Menülerimiz"} />
             </div>
+
         </header>
     )
 }

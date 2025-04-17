@@ -4,7 +4,7 @@ import Logo from "../../assets/images/logo.svg"
 
 const NavbarLogo = () => {
     return (
-        <img src={Logo} alt="Baz Food" />
+        <img width={120} height={120} src={Logo} alt="Baz Food" />
     )
 }
 

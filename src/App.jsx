@@ -9,13 +9,11 @@ import SubscribeNewsletterSection from './components/SubscribeNewsletterSection/
 import Footer from './components/Footer/Footer';
 
 
-
-
 function App() {
   return (
     <>
       <Navbar />
-      <div className='h-screen min-h-screen '>
+      <div className='h-screen min-h-screen'>
         <Header />
         <CompanyInfoSection />
         <MostPopularProductsSection />

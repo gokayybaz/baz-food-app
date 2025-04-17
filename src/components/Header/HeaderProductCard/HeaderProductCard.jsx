@@ -9,7 +9,7 @@ const HeaderProductCard = ({ image, title, description }) => {
         <div className='shadow-xl hover:scale-105 transition-all cursor-pointer flex flex-col justify-around  relative rounded-2xl'>
             <HeaderProductCardImage image={image} />
             <div></div>
-            <div className='flex flex-col items-center text-center justify-center'>
+            <div className='flex md:mt-0 mt-24 md:p-0 p-2 flex-col items-center text-center justify-center'>
                 <HeaderProductCardTitle title={title} />
                 <HeaderProductCardSubtitle description={description} />
             </div>
