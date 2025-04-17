@@ -11,7 +11,7 @@ import ProductCard from '../../../components/ProductCard/ProductCard';
 
 const MostPopularProductsSectionList = () => {
     return (
-        <div className='grid mt-10 grid-cols-3 gap-15'>
+        <div className='grid mt-10 grid-cols-1 md:p-0 m-4 md:grid-cols-3 gap-15'>
             <ProductCard image={ChickenPotPie} title={"Tavuklu Börek"} price={150} starCount={4.5} unit={" Porsiyon"} />
             <ProductCard image={Enchilade} title={"Ev Yapımı Pizza"} price={200} starCount={5} unit={" Porsiyon"} />
             <ProductCard image={GreenBeans} title={"Yeşil Çubuk"} price={100} starCount={4} unit={" Tabak"} />

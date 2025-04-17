@@ -7,7 +7,7 @@ import MostPopularProductsButtonArea from './MostPopularProductsSectionButtonAre
 
 const MostPopularProductsSection = () => {
     return (
-        <div className='flex flex-col mt-25 px-36 justify-center items-center'>
+        <div className='flex flex-col mt-20 md:mt-25 md:px-36 justify-center items-center'>
             <MostPopularProductsSectionTextArea />
             <MostPopularProductsSectionList />
             <MostPopularProductsButtonArea />
