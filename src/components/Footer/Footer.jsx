@@ -13,9 +13,9 @@ import FooterSendEmailButton from './FooterSendEmailButton'
 
 const Footer = () => {
     return (
-        <footer className='mt-25 px-36 py-16 flex items-center justify-between bg-gray-100'>
+        <footer className='mt-25 px-5 md:px-36 gap-12 md:gap-0 py-16 flex md:flex-row flex-col items-center justify-between bg-gray-100'>
             {/* Footer Left Area */}
-            <div className='w-3/12 flex flex-col gap-8'>
+            <div className='md:w-3/12 flex flex-col gap-8'>
                 <FooterLogo logo={Logo} />
                 <FooterDescription description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi accusantium exercitationem esse nemo eius facere! Dolorem esse porro ipsum illo ratione!"} />
                 <div className='flex items-center gap-4'>
@@ -26,8 +26,8 @@ const Footer = () => {
                 </div>
             </div>
             {/* Footer Center Area */}
-            <div className='flex w-6/12 justify-center items-center gap-24'>
-                <div>
+            <div className='flex w-full md:w-6/12 flex-col md:flex-row gap-10 md:justify-center md:items-center md:gap-24'>
+                <div className=''>
                     <FooterLinkTitle title={"Açık Restoranlar"} />
                     <ul className='flex flex-col gap-3'>
                         <FooterLink link={"Baz Restaurant - Adana Şb."} />
@@ -47,7 +47,7 @@ const Footer = () => {
                 </div>
             </div>
             {/* Footer Right Area */}
-            <div className='flex flex-col w-3/12'>
+            <div className='flex flex-col md:w-3/12'>
                 <div>
                     <FooterLinkTitle title={"İletişim"} />
                     <FooterDescription description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam iusto incidunt ratione unde, ullam nostrum quas!"} />
