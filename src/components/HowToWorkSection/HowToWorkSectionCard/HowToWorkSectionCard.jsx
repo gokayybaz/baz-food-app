@@ -6,9 +6,9 @@ import HowToWorkSectionCardSubTitle from './HowToWorkSectionCardSubTitle'
 
 const HowToWorkSectionCard = ({ flexType, cardImage, cardImageAltText, cardTitle, cardDescription }) => {
     return (
-        <div className={`flex ${flexType} justify-between`}>
+        <div className={`flex flex-col md:${flexType} justify-between`}>
             <HowToWorkSectionCardImage image={cardImage} imageAltText={cardImageAltText} />
-            <div className={`${flexType == 'flex-col' ? 'mt-4' : 'mb-4'} flex items-center justify-center flex-col text-center`}>
+            <div className={`md:${flexType == 'flex-col' ? 'mt-4' : 'mb-4'} mt-8 flex items-center justify-center flex-col text-center`}>
                 <HowToWorkSectionCardTitle title={cardTitle} />
                 <HowToWorkSectionCardSubTitle subTitle={cardDescription} />
             </div>

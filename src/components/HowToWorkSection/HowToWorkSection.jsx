@@ -5,7 +5,7 @@ import HowToWorkSectionCardArea from './HowToWorkSectionCardArea'
 
 const HowToWorkSection = () => {
     return (
-        <section className='mt-25 px-36'>
+        <section className='mt-25 md:px-36'>
             <HowToWorkSectionTextArea title={"ÇALIŞMA ŞEKLİMİZ"} subTitle={"SİPARİŞİNİZ NASIL HAZIRLANIYOR?"} />
             <HowToWorkSectionCardArea />
         </section>
