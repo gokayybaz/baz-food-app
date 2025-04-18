@@ -7,9 +7,9 @@ import CustomerSaysSectionCardArea from './CustomerSaysSectionCardArea/CustomerS
 
 const CustomerSaysSection = () => {
     return (
-        <section className='mt-25 px-36'>
+        <section className='mt-25 px-4 md:px-36'>
             <CustomerSaysSectionTextArea title={"MÜŞTERİ GERİ BİLDİRİMLERİ"} subTitle={"MÜŞTERİLERİMİZ NELER DİYOR?"} />
-            <div className='flex w-full mt-8 items-center justify-between'>
+            <div className='flex md:flex-row flex-col gap-8 md:gap-0 w-full mt-8 items-center justify-between'>
                 <CustomerSaysSectionCardArea />
                 <CustomerSaysSectionImage image={FastFoodImage} />
             </div>
