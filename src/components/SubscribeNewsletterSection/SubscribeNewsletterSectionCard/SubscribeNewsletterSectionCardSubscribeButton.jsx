@@ -2,7 +2,7 @@ import React from 'react'
 
 const SubscribeNewsletterSectionCardSubscribeButton = ({ title }) => {
     return (
-        <button className='w-[20%] cursor-pointer hover:bg-amber-500 bg-amber-600 p-4 py-2.5 text-white font-medium rounded-2xl'>{title}</button>
+        <button className='md:w-[20%] p-2 cursor-pointer hover:bg-amber-500 bg-amber-600 md:p-4 md:py-2.5 text-white font-medium rounded-2xl'>{title}</button>
     )
 }
 
