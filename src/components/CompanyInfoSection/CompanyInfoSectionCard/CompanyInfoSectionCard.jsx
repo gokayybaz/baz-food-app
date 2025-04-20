@@ -2,7 +2,7 @@ import React from 'react'
 
 import CompanyInfoSectionCardIcon from "./CompanyInfoSectionCardIcon"
 import CompanyInfoSectionCardTitle from "./CompanyInfoSectionCardTitle"
-import CompanyInfoSectionCardSubTitle from './CompanyInfoSectionCardSubtitle'
+import CompanyInfoSectionCardSubTitle from './CompanyInfoSectionCardSubTitle'
 
 const CompanyInfoSectionCard = ({ Icon, title, subTitle }) => {
     return (
