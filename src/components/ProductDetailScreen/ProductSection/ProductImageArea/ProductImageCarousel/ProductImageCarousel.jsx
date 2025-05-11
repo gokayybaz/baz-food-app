@@ -31,8 +31,8 @@ const ProductImageCarousel = ({ setSelectedIndex, images, api, setApi }) => {
                     images.map((image, index) => (<CarouselItem className={"flex items-center justify-center"}><img src={image.image} key={index} alt="Burger Image" /></CarouselItem>))
                 }
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+            <CarouselPrevious className={"hidden md:flex"} />
+            <CarouselNext className={"hidden md:flex"} />
         </Carousel>
     )
 }
