@@ -1,12 +1,12 @@
 import React from 'react'
 
 import Header from '../components/Header/Header';
-import CompanyInfoSection from '../components/CompanyInfoSection/CompanyInfoSection'
-import MostPopularProductsSection from '../components/MostPopularProductsSection/MostPopularProductsSection';
-import ServicesSection from '../components/ServicesSection/ServicesSection';
-import HowToWorkSection from '../components/HowToWorkSection/HowToWorkSection';
-import CustomerSaysSection from '../components/CustomerSaysSection/CustomerSaysSection'
-import SubscribeNewsletterSection from '../components/SubscribeNewsletterSection/SubscribeNewsletterSection';
+import CompanyInfoSection from '../components/HomeScreen/CompanyInfoSection/CompanyInfoSection'
+import MostPopularProductsSection from '../components/HomeScreen/MostPopularProductsSection/MostPopularProductsSection';
+import ServicesSection from '../components/HomeScreen/ServicesSection/ServicesSection';
+import HowToWorkSection from '../components/HomeScreen/HowToWorkSection/HowToWorkSection';
+import CustomerSaysSection from '../components/HomeScreen/CustomerSaysSection/CustomerSaysSection'
+import SubscribeNewsletterSection from '../components/HomeScreen/SubscribeNewsletterSection/SubscribeNewsletterSection';
 
 const Home = () => {
     return (

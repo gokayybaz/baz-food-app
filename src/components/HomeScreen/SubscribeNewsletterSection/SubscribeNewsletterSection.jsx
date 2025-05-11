@@ -2,7 +2,7 @@ import React from 'react'
 
 
 import SubscribeNewsletterSectionImage from './SubscribeNewsletterSectionImage';
-import BurgerImage from '../../assets/images/subscribe-newsletter-images/burger.svg'
+import BurgerImage from '../../../assets/images/subscribe-newsletter-images/burger.svg'
 import SubscribeNewsletterSectionCard from './SubscribeNewsletterSectionCard/SubscribeNewsletterSectionCard';
 
 

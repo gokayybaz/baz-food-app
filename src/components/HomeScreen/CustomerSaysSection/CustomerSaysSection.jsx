@@ -1,7 +1,7 @@
 import React from 'react'
 
 import CustomerSaysSectionTextArea from './CustomerSaysSectionTextArea/CustomerSaysSectionTextArea'
-import FastFoodImage from '../../assets/images/client-says-images/fast-food-image.svg'
+import FastFoodImage from '../../../assets/images/client-says-images/fast-food-image.svg'
 import CustomerSaysSectionImage from './CustomerSaysSectionImage';
 import CustomerSaysSectionCardArea from './CustomerSaysSectionCardArea/CustomerSaysSectionCardArea'
 

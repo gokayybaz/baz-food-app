@@ -10,8 +10,8 @@ function App() {
 
     <div className='h-screen min-h-screen'>
       <Navbar />
-      <Home />
-      {/* <ProductDetail /> */}
+      {/* <Home /> */}
+      <ProductDetail />
       <Footer />
     </div >
 

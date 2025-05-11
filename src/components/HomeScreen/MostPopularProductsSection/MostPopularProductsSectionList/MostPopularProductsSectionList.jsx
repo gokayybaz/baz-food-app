@@ -1,13 +1,13 @@
 import React from 'react'
 
-import ChickenPotPie from "../../../assets/images/most-popular-product-images/chicken-pot-pie.png"
-import Enchilade from "../../../assets/images/most-popular-product-images/enchilade.png"
-import GreenBeans from "../../../assets/images/most-popular-product-images/green-beans.png"
-import GreenSalads from "../../../assets/images/most-popular-product-images/green-salad.png"
-import Pizza from "../../../assets/images/most-popular-product-images/pizza.png"
-import Sandwich from "../../../assets/images/most-popular-product-images/sandwich.png"
+import ChickenPotPie from "../../../../assets/images/most-popular-product-images/chicken-pot-pie.png"
+import Enchilade from "../../../../assets/images/most-popular-product-images/enchilade.png"
+import GreenBeans from "../../../../assets/images/most-popular-product-images/green-beans.png"
+import GreenSalads from "../../../../assets/images/most-popular-product-images/green-salad.png"
+import Pizza from "../../../../assets/images/most-popular-product-images/pizza.png"
+import Sandwich from "../../../../assets/images/most-popular-product-images/sandwich.png"
 
-import ProductCard from '../../../components/ProductCard/ProductCard';
+import ProductCard from '../../../../components/ProductCard/ProductCard';
 
 const MostPopularProductsSectionList = () => {
     return (

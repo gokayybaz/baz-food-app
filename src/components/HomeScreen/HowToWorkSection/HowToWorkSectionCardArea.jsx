@@ -1,11 +1,11 @@
 import React from 'react'
 
-import ComputerImage from '../../assets/images/how-to-work-images/computer.svg'
-import FoodImage from '../../assets/images/how-to-work-images/food.svg'
-import PackageImage from '../../assets/images/how-to-work-images/package.svg'
+import ComputerImage from '../../../assets/images/how-to-work-images/computer.svg'
+import FoodImage from '../../../assets/images/how-to-work-images/food.svg'
+import PackageImage from '../../../assets/images/how-to-work-images/package.svg'
 
-import StepLeftImage from '../../assets/images/how-to-work-images/step-line-left.svg'
-import StepRightImage from '../../assets/images/how-to-work-images/step-line-right.svg'
+import StepLeftImage from '../../../assets/images/how-to-work-images/step-line-left.svg'
+import StepRightImage from '../../../assets/images/how-to-work-images/step-line-right.svg'
 
 import HowToWorkSectionCard from './HowToWorkSectionCard/HowToWorkSectionCard'
 import HowToWorkSectionStepArrowImage from './HowToWorkSectionStepArrowImage'
